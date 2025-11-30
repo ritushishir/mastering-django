@@ -1,0 +1,55 @@
+site_name: Getting Started with Django
+site_url: https://example.com/docs/
+theme:
+  name: material
+  font: 
+    text: Merriweather
+    code: Roboto Mono
+  favicon: assets/favicon.ico
+  logo: assets/logo.png
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.instant
+    - navigation.top
+    - search.highlight
+    - content.code.annotate
+    - content.code.copy
+    - toc.follow
+  palette:
+    - scheme: default
+      primary: green
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - admonition
+  - pymdownx.details
+  - toc:
+      permalink: true
+  - codehilite:
+      guess_lang: false
+  - footnotes
+  - def_list
+  - tables
+
+
+#--- navigation structure ---
+nav:
+  - Home: Introduction/introduction-to-mastering-django.md
+  - Django Basics:
+      - Introduction to Django: unit-1/introduction-to-django.md
+      - Installation: unit-1/installation.md
+      - Setup a Project: unit-1/project-setup.md
+      - Project and App Structure: unit-1/project-and-app-structure.md
