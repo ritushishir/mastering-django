@@ -15,7 +15,7 @@ python3 -m venv myenv
 source myenv/bin/activate  # On Windows use `myenv\Scripts\activate`
 ```
 
-This creates and activates a [virtual environment](../unit-1/concepts.md) named `myenv`.
+This creates and activates a [virtual environment](../unit-1/virtual-environment.md) named `myenv`.
 
 This makes other commands available only within this isolated environment.
 
@@ -97,7 +97,7 @@ geetshala/
 
 ---
 
-#### [Project and App Structure](project-and-app.md)
+#### [Project and App Structure](project-and-app-structure.md)
 
 ---
 

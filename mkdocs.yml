@@ -47,7 +47,7 @@ markdown_extensions:
 
 #--- navigation structure ---
 nav:
-  - Home: Introduction/introduction-to-mastering-django.md
+  - Home: introduction/introduction-to-mastering-django.md
   - Django Basics:
       - Introduction to Django: unit-1/introduction-to-django.md
       - Installation: unit-1/installation.md

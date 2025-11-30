@@ -34,53 +34,51 @@ The Power of Creation and Problem-Solving
 2. Learn the How Behind the Magic
 3. Build Real Projects
 
-![alt text](../misc/images/why-learn-django.png)
+![alt text](../introduction/assets/why-learn-django.png)
 
 ---
 
 ## Your Learning Journey
 
-![your-learning-journey](../misc/images/your-learning-journey.png)
+![your-learning-journey](../introduction/assets/your-learning-journey.png)
 
 ---
 
 ## Course Objective - what you will be able to do
 
-![course-objective](../misc/images/course-objective-what-you-will-be-able-to-do.png)
+![course-objective](../introduction/assets/course-objective-what-you-will-be-able-to-do.png)
 
 ---
 
 ## How This Class Will Be
 
-![how-this-class-will-be](../misc/images/how-this-class-will-be.png)
+![how-this-class-will-be](../introduction/assets/how-this-class-will-be.png)
 
 ---
 
 ## Building a Real Project
 
-![we-are-building-a-real-project](../misc/images/we-are-building-a-real-project.png)
+![we-are-building-a-real-project](../introduction/assets/we-are-building-a-real-project.png)
 
 ---
 
 ## Interactive Sessions
 
-![interactive-code-alongs](../misc/images/interactive-code-alongs.png)
+![interactive-code-alongs](../introduction/assets/interactive-code-alongs.png)
 
 ## Making It Stick
 
-![making-it-stick](../misc/images/making-it-stick.png)
-
----
+## ![making-it-stick](../introduction/assets/making-it-stick.png)
 
 ## Your Toolkit
 
-![your-toolkit](../misc/images/your-toolkit.png)
+![your-toolkit](../introduction/assets/your-toolkit.png)
 
 ---
 
 ## Let's Set It Up
 
-![lets-set-it-up](../misc/images/lets-get-ready.png)
+![lets-set-it-up](../introduction/assets/lets-get-ready.png)
 
 ## Verify the Installations
 
