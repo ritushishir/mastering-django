@@ -1,5 +1,8 @@
-site_name: Getting Started with Django
+site_name: Mastering Django
 site_url: https://example.com/docs/
+docs_dir: docs
+site_dir: site
+strict: false
 theme:
   name: material
   font: 
@@ -44,6 +47,8 @@ markdown_extensions:
   - def_list
   - tables
 
+plugins:
+  - search
 
 #--- navigation structure ---
 nav:
@@ -51,5 +56,9 @@ nav:
   - Django Basics:
       - Introduction to Django: unit-1/introduction-to-django.md
       - Installation: unit-1/installation.md
+      - Virtual Environments: unit-1/virtual-environment.md
       - Setup a Project: unit-1/project-setup.md
       - Project and App Structure: unit-1/project-and-app-structure.md
+  - Models and Databases:
+      - Overview: unit-2/overview.md
+      - Database Setup: unit-2/database-setup.md
