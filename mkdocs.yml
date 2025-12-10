@@ -61,4 +61,8 @@ nav:
       - Project and App Structure: unit-1/project-and-app-structure.md
   - Models and Databases:
       - Overview: unit-2/overview.md
+      - Migrations: unit-2/database-migrations.md
+      - Admin Interface: unit-2/admin-interface.md
+      - Forms in Django: unit-2/forms-in-django.md
       - Database Setup: unit-2/database-setup.md
+      - Environment Variables: unit-2/using-environment-variables.md
