@@ -6,7 +6,7 @@ A Complete Journey from Foundations to Deployment
 
 ## Learning Web Development Using Django
 
-#### Why Learn Web Development? 🚀
+### Why Learn Web Development? 🚀
 
 In-Demand, High-Growth Career
 
@@ -34,51 +34,51 @@ The Power of Creation and Problem-Solving
 2. Learn the How Behind the Magic
 3. Build Real Projects
 
-![alt text](../introduction/assets/why-learn-django.png)
+![why-learn-django](introduction/assets/why-learn-django.png)
 
 ---
 
 ## Your Learning Journey
 
-![your-learning-journey](../introduction/assets/your-learning-journey.png)
+![your-learning-journey](introduction/assets/your-learning-journey.png)
 
 ---
 
 ## Course Objective - what you will be able to do
 
-![course-objective](../introduction/assets/course-objective-what-you-will-be-able-to-do.png)
+![course-objective](introduction/assets/course-objective-what-you-will-be-able-to-do.png)
 
 ---
 
 ## How This Class Will Be
 
-![how-this-class-will-be](../introduction/assets/how-this-class-will-be.png)
+![how-this-class-will-be](introduction/assets/how-this-class-will-be.png)
 
 ---
 
 ## Building a Real Project
 
-![we-are-building-a-real-project](../introduction/assets/we-are-building-a-real-project.png)
+![we-are-building-a-real-project](introduction/assets/we-are-building-a-real-project.png)
 
 ---
 
 ## Interactive Sessions
 
-![interactive-code-alongs](../introduction/assets/interactive-code-alongs.png)
+![interactive-code-alongs](introduction/assets/interactive-code-alongs.png)
 
 ## Making It Stick
 
-## ![making-it-stick](../introduction/assets/making-it-stick.png)
+## ![making-it-stick](introduction/assets/making-it-stick.png)
 
 ## Your Toolkit
 
-![your-toolkit](../introduction/assets/your-toolkit.png)
+![your-toolkit](introduction/assets/your-toolkit.png)
 
 ---
 
 ## Let's Set It Up
 
-![lets-set-it-up](../introduction/assets/lets-get-ready.png)
+![lets-set-it-up](introduction/assets/lets-get-ready.png)
 
 ## Verify the Installations
 

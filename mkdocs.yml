@@ -52,10 +52,9 @@ plugins:
 
 #--- navigation structure ---
 nav:
-  - Home: introduction/introduction-to-mastering-django.md
+  - Introduction: index.md
   - Django Basics:
       - Introduction to Django: unit-1/introduction-to-django.md
-      - Installation: unit-1/installation.md
       - Virtual Environments: unit-1/virtual-environment.md
       - Setup a Project: unit-1/project-setup.md
       - Project and App Structure: unit-1/project-and-app-structure.md
