@@ -1,12 +1,46 @@
 # Advanced Concepts in URL Dispatching, View and Template System
 
+Welcome to the advanced concepts section of our Django course. In this unit, we will explore several key areas that will enhance your understanding and skills in Django development.
+
+This chapter moves beyond the basics to cover more complex topics such as advanced URL dispatching techniques, working with generic views, a deep dive into Django's template system, generating specialized content types, and managing metadata and discovery frameworks.
+
+## Learning Objectives
+
+By the end of this chapter, you will be able to:
+
+* Architect Sophisticated URL Schemes
+
+    - Implement modular URL configurations using inclusion and namespaces to prevent naming collisions in large-scale projects.
+
+* Implement Class-Based Views (CBVs)
+
+    - Transition from functional programming to object-oriented views, utilizing Django’s generic views to handle common patterns like list displays and detail pages with minimal code.
+
+* Extend the Template Engine
+  
+    - Use Context Processors to make data globally available across templates
+
+    - Create custom template loaders for specialized file-handling needs.
+
+* Generate Dynamic Non-HTML Content
+    
+    - Configure Django to serve more than just web pages, specifically mastering the programmatic generation of CSV files and PDF documents.
+
+* Optimize for SEO and Syndication
+
+    - Deploy the Sitemap and Syndication (RSS/Atom) frameworks to ensure your content is easily indexed by search engines and consumable by feed readers.
+
+## Topics Covered
+
 ## 1. Advanced URL Dispatching
 
-### URLconf Tricks
+Tricks and techniques for managing URL patterns in Django.
 
-* Naming patterns for easier reverse lookups.
-* Passing extra options to view functions.
-* Handling complex regex/path converters for cleaner URLs.
+### [Including Other URLconfs](/docs/unit-3/advanced-url-dispatching#urlconf-tricks)
+
+### [Naming Patterns for Easier Reverse Lookups](/docs/unit-3/advanced-url-dispatching#naming-patterns-for-easier-reverse-lookups)
+
+### [Passing Extra Options to View Functions](/docs/unit-3/advanced-url-dispatching#passing-extra-options-to-view-functions)
 
 ---
 
@@ -24,68 +58,38 @@
 
 ## 3. Deep Dive: Django Template System
 
-### Template Language Review
+### [Template Language Review](/docs/unit-3/deep-dive-django-templates#template-language-review)
 
-* Quick refresh on Tags, Filters, and Variables.
-* Inheritance strategies (`{% extends %}` and `{% block %}`).
+### [Request Context and Context Processors](/docs/unit-3/deep-dive-django-templates#request-context-and-context-processors)
 
-### Request Context and Context Processors
+### [Inside Template Loading](/docs/unit-3/deep-dive-django-templates#inside-template-loading)
 
-* Understanding `RequestContext` vs. `Context`.
-* Configuring built-in and custom context processors to make data available globally across templates.
+### [Extending the Template System](/docs/unit-3/deep-dive-django-templates#extending-the-template-system)
 
-### Inside Template Loading
+### [Writing Custom Template Loaders](/docs/unit-3/deep-dive-django-templates#writing-custom-template-loaders)
 
-* How Django finds your HTML files.
-* The `DIRS` and `APP_DIRS` configurations.
+### [Using the Built-in Template Reference](/docs/unit-3/deep-dive-django-templates#using-the-built-in-template-reference)
 
-### Extending the Template System
-
-* Writing Custom Template Tags (`simple_tag`, `inclusion_tag`).
-* Creating Custom Template Filters.
-
-### Writing Custom Template Loaders
-
-* Loading templates from non-standard sources (e.g., Database or API).
-
-### Using the Built-in Template Reference
-
-* Leveraging the Django admin documentation for template tags and filters.
-
-### Configuring the Template System in Standalone Mode
-
-* Using the Django Template Engine in non-Django Python scripts.
+### [Configuring the Template System in Standalone Mode](/docs/unit-3/deep-dive-django-templates#configuring-the-template-system-in-standalone-mode)
 
 ---
 
 ## 4. Specialized Content & Outputs
 
-### The Basics: Views and MIME-types
+### [The Basics: Views and MIME-types](/docs/unit-3/specialized-content-and-outputs#views-and-mime-types)
 
-* Changing the `content_type` of a response.
-* How browsers interpret different MIME types.
+### [Producing CSV Output](/docs/unit-3/specialized-content-and-outputs#producing-csv)
 
-### Producing CSV
+### [Generating PDFs](/docs/unit-3/specialized-content-and-outputs#generating-pdfs)
 
-* Generating dynamic spreadsheet exports using the `csv` Python module.
-
-### Generating PDFs
-
-* Integrating libraries like `ReportLab` or `WeasyPrint` to render PDF documents.
-
-### Other Possibilities
-
-* Generating JSON responses for APIs.
-* Creating dynamic ZIP files or images.
+### [Other Possibilities](/docs/unit-3/specialized-content-and-outputs#other-possibilities)
 
 ---
 
 ## 5. Metadata & Discovery Frameworks
 
-### The Syndication Feed Framework
+### [The Syndication Feed Framework](/docs/unit-3/metadata-and-discovery-frameworks#syndication-feed-framework)
 
-* Creating RSS and Atom feeds for your site content.
+### [The Sitemap Framework](/docs/unit-3/metadata-and-discovery-frameworks#sitemap-framework)
 
-### The Sitemap Framework
-
-* Generating `sitemap.xml` to assist search engines in indexing your site.
+### [Best Practices for Metadata and Discovery](/docs/unit-3/metadata-and-discovery-frameworks#best-practices-for-metadata-and-discovery)
