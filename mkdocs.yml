@@ -65,3 +65,18 @@ nav:
       - Forms in Django: unit-2/forms-in-django.md
       - Database Setup: unit-2/database-setup.md
       - Environment Variables: unit-2/using-environment-variables.md
+  - Views, URLConfs, Template Engine and Non-HTML Content:
+      - Overview: unit-3/overview.md
+      - Advanced URL Dispatching: unit-3/advanced-url-dispatching.md
+      - Working with Generic Views: unit-3/working-with-generic-views.md
+      - Deep Dive - Django Template System: unit-3/deep-dive-django-templates.md
+      - Specialized Content & Output: unit-3/specialized-content-and-output.md
+      - Metadata & Discovery Frameworks: unit-3/metadata-and-discovery-frameworks.md
+  
+  # - Users, caching and Subframework:
+  #     - Overview: unit-4/overview.md
+
+  # - Middleware, Legacy Databases and Admin Interface:
+  #     - Overview: unit-5/overview.md
+  # - Internationalization, Security and Deployment:
+  #     - Overview: unit-6/overview.md
