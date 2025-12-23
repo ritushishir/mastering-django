@@ -263,6 +263,26 @@
   
 
       
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../unit-3/overview/" class="md-tabs__link">
+          
+  
+  
+  Views, URLConfs, Template Engine and Non-HTML Content
+
+        </a>
+      </li>
+    
+  
+
+      
     </ul>
   </div>
 </nav>
@@ -1152,6 +1172,233 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Views, URLConfs, Template Engine and Non-HTML Content
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Views, URLConfs, Template Engine and Non-HTML Content
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unit-3/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unit-3/advanced-url-dispatching/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Advanced URL Dispatching
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unit-3/working-with-generic-views/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Working with Generic Views
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unit-3/deep-dive-django-templates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deep Dive - Django Template System
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unit-3/specialized-content-and-output/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Specialized Content & Output
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../unit-3/metadata-and-discovery-frameworks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metadata & Discovery Frameworks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -1981,22 +2228,22 @@ When a user visits <code>/songs/543/hello-world/</code>, Django extracts <code>5
 </thead>
 <tbody>
 <tr>
-<td>{% if ... %}</td>
+<td><code>{% if ... %}</code></td>
 <td>Conditional statements.</td>
 <td><code>{% if user.is_authenticated %}</code></td>
 </tr>
 <tr>
-<td>{% for item in items %}</td>
+<td><code>{% for ... %}</code></td>
 <td>Loops over iterable objects.</td>
 <td><code>{% for song in songs %}</code></td>
 </tr>
 <tr>
-<td>{% csrf_token %}</td>
+<td><code>{% csrf_token %}</code></td>
 <td>Security tag, required in all POST forms.</td>
 <td><code>&lt;form method="post"&gt;{% csrf_token %}&lt;/form&gt;</code></td>
 </tr>
 <tr>
-<td>{% url 'name' arg1 %}</td>
+<td><code>{% url 'name' arg1 %}</code></td>
 <td>Looks up a URL by its defined name, avoiding hardcoding.</td>
 <td><code>&lt;a href="{% url 'song:detail' song.id %}"&gt;...&lt;/a&gt;</code></td>
 </tr>
@@ -2018,10 +2265,10 @@ When a user visits <code>/songs/543/hello-world/</code>, Django extracts <code>5
 
 <details class="tip">
 <summary>Mini-Challenge: Set up Link to Details page in List of Songs and to List of Songs in Details Page</summary>
-</details>
 <p>Use the <code>{% url %}</code> tag to create a link to the song detail page dynamically.</p>
 <p><code>html
-    &lt;a href="{% url 'song_detail' song.geet_id %}"&gt;View Details&lt;/a&gt;</code></p>
+&lt;a href="{% url 'song_detail' song.geet_id %}"&gt;View Details&lt;/a&gt;</code></p>
+</details>
 <ul>
 <li>
 <p><strong>Template Filters</strong>: modify the display of variables (e.g., formatting dates, converting text to uppercase)</p>
@@ -2039,8 +2286,8 @@ When a user visits <code>/songs/543/hello-world/</code>, Django extracts <code>5
 <li><code>{{ comments          | length }}</code></li>
 <li><code>{{ html_content      | safe }}</code></li>
 </ul>
-<div class="codehilite"><pre><span></span><code>  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Current date: {{ current_date|date:&quot;F j, Y&quot; }}<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Uppercase Name: {{ user.username|upper }}<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<div class="codehilite"><pre><span></span><code><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Current date: {{ current_date|date:&quot;F j, Y&quot; }}<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Uppercase Name: {{ user.username|upper }}<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
 </code></pre></div>
 
 <h3 id="templates-in-viewscontext-of-mvt">Templates in Views(context of MVT)<a class="headerlink" href="#templates-in-viewscontext-of-mvt" title="Permanent link">&para;</a></h3>

@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://example.com/docs/unit-1/introduction-to-django/">
+        <link rel="canonical" href="https://example.com/docs/unit-3/deep-dive-django-templates/">
       
       
-        <link rel="prev" href="../..">
+        <link rel="prev" href="../working-with-generic-views/">
       
       
-        <link rel="next" href="../virtual-environment/">
+        <link rel="next" href="../specialized-content-and-output/">
       
       
         
@@ -25,7 +25,7 @@
     
     
       
-        <title>Introduction to Django - Mastering Django</title>
+        <title>Deep Dive - Django Template System - Mastering Django</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#what-is-django-web-framework" class="md-skip">
+        <a href="#deep-dive-django-template-system" class="md-skip">
           Skip to content
         </a>
       
@@ -109,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Introduction to Django
+              Deep Dive - Django Template System
             
           </span>
         </div>
@@ -225,13 +225,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../unit-1/introduction-to-django/" class="md-tabs__link">
           
   
   
@@ -267,11 +265,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../unit-3/overview/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../overview/" class="md-tabs__link">
           
   
   
@@ -346,31 +346,26 @@
       
   
   
-    
   
   
-  
     
     
     
     
-      
-        
-        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
             
   
   
@@ -388,7 +383,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -403,35 +398,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Introduction to Django
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../unit-1/introduction-to-django/" class="md-nav__link">
         
   
   
@@ -447,57 +417,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#what-is-django-web-framework" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        What is Django? - Web Framework
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-comes-with-django" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        What comes with Django
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#why-use-django" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Why Use Django?
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -510,7 +429,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../virtual-environment/" class="md-nav__link">
+      <a href="../../unit-1/virtual-environment/" class="md-nav__link">
         
   
   
@@ -538,7 +457,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../project-setup/" class="md-nav__link">
+      <a href="../../unit-1/project-setup/" class="md-nav__link">
         
   
   
@@ -566,7 +485,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../project-and-app-structure/" class="md-nav__link">
+      <a href="../../unit-1/project-and-app-structure/" class="md-nav__link">
         
   
   
@@ -825,26 +744,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
             
   
   
@@ -862,7 +786,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
@@ -880,7 +804,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../unit-3/overview/" class="md-nav__link">
+      <a href="../overview/" class="md-nav__link">
         
   
   
@@ -908,7 +832,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../unit-3/advanced-url-dispatching/" class="md-nav__link">
+      <a href="../advanced-url-dispatching/" class="md-nav__link">
         
   
   
@@ -936,7 +860,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../unit-3/working-with-generic-views/" class="md-nav__link">
+      <a href="../working-with-generic-views/" class="md-nav__link">
         
   
   
@@ -961,10 +885,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../unit-3/deep-dive-django-templates/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deep Dive - Django Template System
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -980,6 +931,103 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#template-language-review" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Template Language Review
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#request-context-and-context-processors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Request Context and Context Processors
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inside-template-loading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inside Template Loading
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extending-the-template-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Extending the Template System
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#writing-custom-template-loaders" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Writing Custom Template Loaders
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-the-built-in-template-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Using the Built-in Template Reference
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuring-the-template-system-in-standalone-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuring the Template System in Standalone Mode
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -992,7 +1040,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../unit-3/specialized-content-and-output/" class="md-nav__link">
+      <a href="../specialized-content-and-output/" class="md-nav__link">
         
   
   
@@ -1020,7 +1068,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../unit-3/metadata-and-discovery-frameworks/" class="md-nav__link">
+      <a href="../metadata-and-discovery-frameworks/" class="md-nav__link">
         
   
   
@@ -1065,6 +1113,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1073,10 +1123,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-is-django-web-framework" class="md-nav__link">
+  <a href="#template-language-review" class="md-nav__link">
     <span class="md-ellipsis">
       
-        What is Django? - Web Framework
+        Template Language Review
       
     </span>
   </a>
@@ -1084,10 +1134,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#what-comes-with-django" class="md-nav__link">
+  <a href="#request-context-and-context-processors" class="md-nav__link">
     <span class="md-ellipsis">
       
-        What comes with Django
+        Request Context and Context Processors
       
     </span>
   </a>
@@ -1095,10 +1145,54 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#why-use-django" class="md-nav__link">
+  <a href="#inside-template-loading" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Why Use Django?
+        Inside Template Loading
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extending-the-template-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Extending the Template System
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#writing-custom-template-loaders" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Writing Custom Template Loaders
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-the-built-in-template-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Using the Built-in Template Reference
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuring-the-template-system-in-standalone-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuring the Template System in Standalone Mode
       
     </span>
   </a>
@@ -1122,29 +1216,36 @@
 
 
 
-  <h1>Introduction to Django</h1>
-
-<h2 id="what-is-django-web-framework">What is Django? - Web Framework<a class="headerlink" href="#what-is-django-web-framework" title="Permanent link">&para;</a></h2>
+<h1 id="deep-dive-django-template-system">Deep Dive - Django Template System<a class="headerlink" href="#deep-dive-django-template-system" title="Permanent link">&para;</a></h1>
+<h2 id="template-language-review">Template Language Review<a class="headerlink" href="#template-language-review" title="Permanent link">&para;</a></h2>
 <ul>
-<li>A toolkit to simplify web development</li>
-<li>pre-built components and tools, and a standardized way of building web applications</li>
-<li>ability to build applications faster and more efficiently</li>
-<li>no need to reinvent the wheel for common tasks</li>
+<li>Quick refresh on Tags, Filters, and Variables.</li>
+<li>Inheritance strategies (<code>{% extends %}</code> and <code>{% block %}</code>).</li>
 </ul>
-<hr />
-<h2 id="what-comes-with-django">What comes with Django<a class="headerlink" href="#what-comes-with-django" title="Permanent link">&para;</a></h2>
-<p><img alt="django-features" src="../assets/django-features.png" /></p>
-<hr />
-<h2 id="why-use-django">Why Use Django?<a class="headerlink" href="#why-use-django" title="Permanent link">&para;</a></h2>
+<h2 id="request-context-and-context-processors">Request Context and Context Processors<a class="headerlink" href="#request-context-and-context-processors" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>Rapid Development</strong>: Django's built-in features and tools allow developers to build applications quickly, reducing development time significantly.</li>
-<li><strong>Scalability</strong>: Django is designed to handle high-traffic applications and can scale easily as your application grows.</li>
-<li><strong>Security</strong>: Django includes built-in security features to protect against common web vulnerabilities, such as SQL injection, cross-site scripting (XSS), and cross-site request forgery (CSRF).</li>
-<li><strong>Versatility</strong>: Django can be used to build a wide range of applications, from simple websites to complex web applications and APIs.</li>
-<li><strong>Community and Ecosystem</strong>: Django has a large and active community, which means there are plenty of resources, third-party packages, and plugins available to extend its functionality.</li>
-<li><strong>Maintainability</strong>: Django's emphasis on clean and reusable code makes it easier to maintain and update applications over time.</li>
+<li>Understanding <code>RequestContext</code> vs. <code>Context</code>.</li>
+<li>Configuring built-in and custom context processors to make data available globally across templates.</li>
 </ul>
-<hr />
+<h2 id="inside-template-loading">Inside Template Loading<a class="headerlink" href="#inside-template-loading" title="Permanent link">&para;</a></h2>
+<ul>
+<li>How Django finds your HTML files.</li>
+<li>The <code>DIRS</code> and <code>APP_DIRS</code> configurations.</li>
+</ul>
+<h2 id="extending-the-template-system">Extending the Template System<a class="headerlink" href="#extending-the-template-system" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Writing Custom Template Tags (<code>simple_tag</code>, <code>inclusion_tag</code>).</li>
+<li>Creating Custom Template Filters.</li>
+</ul>
+<h2 id="writing-custom-template-loaders">Writing Custom Template Loaders<a class="headerlink" href="#writing-custom-template-loaders" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Loading templates from non-standard sources (e.g., Database or API).</li>
+</ul>
+<h2 id="using-the-built-in-template-reference">Using the Built-in Template Reference<a class="headerlink" href="#using-the-built-in-template-reference" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Leveraging the Django admin documentation for template tags and filters.</li>
+</ul>
+<h2 id="configuring-the-template-system-in-standalone-mode">Configuring the Template System in Standalone Mode<a class="headerlink" href="#configuring-the-template-system-in-standalone-mode" title="Permanent link">&para;</a></h2>
 
 
 
